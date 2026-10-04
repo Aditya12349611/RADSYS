@@ -31,17 +31,17 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
 
             {/* Main Bold Headline */}
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-radsys-black leading-[1.02] uppercase font-display">
-              ENGINEERING <br />
-              <span className="text-radsys-blue inline-block relative">
-                THE NEXT.
-                <span className="absolute -bottom-2 left-0 w-full h-[3px] bg-radsys-blue/40"></span>
-              </span>
-            </h1>
+  RADSYS <br />
+    <span className="text-radsys-blue inline-block relative text-5xl sm:text-5xl lg:text-6xl">
+    ENGINEERING THE NEXT.
+    <span className="text-radsys-blue inline-block relative text-4xl sm:text-5xl lg:text-5xl"> </span>
+  </span>
+</h1>
 
             {/* Authoritative Subtitle */}
-            <p className="text-lg sm:text-xl text-slate-700 font-normal leading-relaxed max-w-2xl">
+           {/* <p className="text-lg sm:text-xl text-slate-700 font-normal leading-relaxed max-w-2xl">
               "{COMPANY_INFO.heroSubheadline}"
-            </p>
+            </p> */}
 
             {/* CTAs */}
             <div className="pt-2 flex flex-wrap items-center gap-4 w-full sm:w-auto">
